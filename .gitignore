@@ -1,0 +1,175 @@
+# ============================================================
+# Secrets / Environment
+# ============================================================
+
+.env
+.env.local
+.env.*.local
+
+# Keep example environment files
+!.env.example
+
+
+# ============================================================
+# .NET / ASP.NET
+# ============================================================
+
+**/bin/
+**/obj/
+
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+
+# .NET test results
+TestResults/
+**/TestResults/
+*.trx
+
+# Code coverage
+coverage/
+**/coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# ASP.NET generated files
+ScaffoldingReadMe.txt
+
+
+# ============================================================
+# Visual Studio
+# ============================================================
+
+.vs/
+
+
+# ============================================================
+# JetBrains Rider / IntelliJ
+# ============================================================
+
+.idea/
+*.sln.iml
+
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+
+# Remove this section later if you decide to commit shared
+# VS Code workspace settings.
+
+
+# ============================================================
+# Node / React / Vite
+# ============================================================
+
+**/node_modules/
+
+**/dist/
+**/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager caches
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+
+
+# ============================================================
+# Frontend testing / tooling
+# ============================================================
+
+**/coverage/
+**/.eslintcache
+**/.stylelintcache
+
+
+# ============================================================
+# SQL Server / Database
+# ============================================================
+
+*.mdf
+*.ldf
+*.ndf
+*.bak
+
+# Local database scratch/temp files
+database/tmp/
+database/local/
+
+
+# ============================================================
+# Docker
+# ============================================================
+
+# compose.yaml SHOULD be committed.
+# Docker volumes are managed by Docker and aren't stored here.
+
+docker-compose.override.yml
+compose.override.yml
+compose.local.yml
+
+
+# ============================================================
+# Logs / Temporary Files
+# ============================================================
+
+*.log
+logs/
+**/logs/
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+tmp/
+temp/
+
+
+# ============================================================
+# OS generated files
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+
+# ============================================================
+# Misc generated files
+# ============================================================
+
+.cache/
+**/.cache/
