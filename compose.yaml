@@ -4,6 +4,9 @@ services:
     environment:
       ACCEPT_EULA: "Y"
       MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD}"
+      MSSQL_DB: "${MSSQL_DB}"
+      MSSQL_USER: "${MSSQL_USER}"
+      MSSQL_PASSWORD: "${MSSQL_PASSWORD}"
     ports:
       - "1433:1433"
     volumes:
